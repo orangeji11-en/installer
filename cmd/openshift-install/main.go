@@ -65,6 +65,7 @@ func installerMain() {
 		newCompletionCmd(),
 		newMigrateCmd(),
 		newExplainCmd(),
+		newWebCmd(),
 	} {
 		rootCmd.AddCommand(subCmd)
 	}
